@@ -1,0 +1,154 @@
+
+/* Class = "UILabel"; text = "2017.02"; ObjectID = "4bN-CS-Jk2"; */
+"4bN-CS-Jk2.text" = "2017.02";
+
+/* Class = "UILabel"; text = "08월 07일"; ObjectID = "5OI-U6-JSP"; */
+"5OI-U6-JSP.text" = "08월 07일";
+
+/* Class = "UITextField"; text = "서울시 강남구 서초동 선릉공원"; ObjectID = "6Ia-pU-Nm3"; */
+"6Ia-pU-Nm3.text" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UITextField"; placeholder = "이름을 입력하세요."; ObjectID = "8MX-9I-qid"; */
+"8MX-9I-qid.placeholder" = "이름을 입력하세요.";
+
+/* Class = "UILabel"; text = "08:15 PM"; ObjectID = "9eJ-3V-DeL"; */
+"9eJ-3V-DeL.text" = "08:15 PM";
+
+/* Class = "UILabel"; text = "행복한 순간에 함께 한 사람들"; ObjectID = "At9-3M-S3N"; */
+"At9-3M-S3N.text" = "행복한 순간에 함께 한 사람들";
+
+/* Class = "UILabel"; text = "08:15 PM"; ObjectID = "AxN-Iw-hR7"; */
+"AxN-Iw-hR7.text" = "08:15 PM";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "BpV-ZF-UFA"; */
+"BpV-ZF-UFA.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "다음에 하기"; ObjectID = "CSh-WB-P4y"; */
+"CSh-WB-P4y.text" = "시작하기";
+
+/* Class = "UILabel"; text = "#차용빈  #고양이"; ObjectID = "CiZ-S0-YHO"; */
+"CiZ-S0-YHO.text" = "#차용빈  #고양이";
+
+/* Class = "UITextView"; text = "8월은 65번 행복했습니다.\n8월 중 가장 행복한 날은 12일 입니다.\n하루 중 8시 에 \nS"; ObjectID = "ENq-WZ-gmE"; */
+"ENq-WZ-gmE.text" = "8월은 65번 행복했습니다.\n8월 중 가장 행복한 날은 12일 입니다.\n하루 중 8시 에 \nS";
+
+/* Class = "UIButton"; normalTitle = "서울시 강남구 서초동 선릉공원"; ObjectID = "F7L-UK-pzQ"; */
+"F7L-UK-pzQ.normalTitle" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UILabel"; text = "08:15 PM"; ObjectID = "Je1-XL-tyy"; */
+"Je1-XL-tyy.text" = "08:15 PM";
+
+/* Class = "UILabel"; text = "하루 중 오후 8시에 행복했군요."; ObjectID = "LQY-ZZ-uuq"; */
+"LQY-ZZ-uuq.text" = "하루 중 오후 8시에 행복했군요.";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "LWg-qB-KP9"; */
+"LWg-qB-KP9.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "#차용빈  #고양이"; ObjectID = "OA4-cP-wiJ"; */
+"OA4-cP-wiJ.text" = "#차용빈  #고양이";
+
+/* Class = "UIButton"; normalTitle = "서울시 강남구 서초동 선릉공원"; ObjectID = "OIV-n4-ma0"; */
+"OIV-n4-ma0.normalTitle" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UILabel"; text = "08:15 PM"; ObjectID = "PEA-Ik-P2n"; */
+"PEA-Ik-P2n.text" = "08:15 PM";
+
+/* Class = "UILabel"; text = "행복의 순간"; ObjectID = "Qhv-GA-8DX"; */
+"Qhv-GA-8DX.text" = "행복의 순간";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "RbG-BV-iGg"; */
+"RbG-BV-iGg.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "Connect with Google"; ObjectID = "SMU-kc-rpm"; */
+"SMU-kc-rpm.text" = "Connect with Google";
+
+/* Class = "UILabel"; text = "#차용빈  #고양이"; ObjectID = "TbO-pZ-1bN"; */
+"TbO-pZ-1bN.text" = "#차용빈  #고양이";
+
+/* Class = "UILabel"; text = "08:15 PM"; ObjectID = "Trd-AG-tB6"; */
+"Trd-AG-tB6.text" = "08:15 PM";
+
+/* Class = "UILabel"; text = "#차용빈  #고양이"; ObjectID = "XZx-7I-8PT"; */
+"XZx-7I-8PT.text" = "#차용빈  #고양이";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "Ycb-nW-hyH"; */
+"Ycb-nW-hyH.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "행복한 순간의 기록들"; ObjectID = "Ywq-zx-6h3"; */
+"Ywq-zx-6h3.text" = "행복한 순간의 기록들";
+
+/* Class = "UITextField"; placeholder = "장소를 적어주세요."; ObjectID = "aGY-pN-31V"; */
+"aGY-pN-31V.placeholder" = "장소를 적어주세요.";
+
+/* Class = "UIButton"; normalTitle = "서울시 강남구 서초동 선릉공원"; ObjectID = "aiW-7U-UgM"; */
+"aiW-7U-UgM.normalTitle" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UIButton"; normalTitle = "서울시 강남구 서초동 선릉공원"; ObjectID = "alN-Ku-VIL"; */
+"alN-Ku-VIL.normalTitle" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UIButton"; normalTitle = "내보내기"; ObjectID = "b0h-q9-eTp"; */
+"b0h-q9-eTp.normalTitle" = "내보내기";
+
+/* Class = "UILabel"; text = "행  복  의  순  간  들"; ObjectID = "b7Y-Ba-56W"; */
+"b7Y-Ba-56W.text" = "행  복  의  순  간  들";
+
+/* Class = "UILabel"; text = "2017년 8월"; ObjectID = "cK6-Oo-zg7"; */
+"cK6-Oo-zg7.text" = "2017년 8월";
+
+/* Class = "UILabel"; text = "콤마(,)를 사용하면 여러명을 입력할 수 있습니다."; ObjectID = "eO9-7z-R2e"; */
+"eO9-7z-R2e.text" = "콤마(,)를 사용하면 여러명을 입력할 수 있습니다.";
+
+/* Class = "UIButton"; normalTitle = "서울시 강남구 서초동 선릉공원"; ObjectID = "egf-RB-Itv"; */
+"egf-RB-Itv.normalTitle" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UILabel"; text = "Connect with FACEBOOK"; ObjectID = "fHk-Ho-agO"; */
+"fHk-Ho-agO.text" = "Connect with FACEBOOK";
+
+/* Class = "UILabel"; text = "H   A   P   P   E   R"; ObjectID = "grc-Ir-O1W"; */
+"grc-Ir-O1W.text" = "H   A   P   P   E   R";
+
+/* Class = "UILabel"; text = "8월 가장 행복한 순간을 함께 한"; ObjectID = "kWj-Vv-d1f"; */
+"kWj-Vv-d1f.text" = "8월 가장 행복한 순간을 함께 한";
+
+/* Class = "UIButton"; normalTitle = "내보내기"; ObjectID = "l7K-h2-rij"; */
+"l7K-h2-rij.normalTitle" = "내보내기";
+
+/* Class = "UIButton"; normalTitle = "서울시 강남구 서초동 선릉공원"; ObjectID = "mjh-Po-SAu"; */
+"mjh-Po-SAu.normalTitle" = "서울시 강남구 서초동 선릉공원";
+
+/* Class = "UITextField"; text = "공유, 김고은"; ObjectID = "n8J-tA-opv"; */
+"n8J-tA-opv.text" = "공유, 김고은";
+
+/* Class = "UILabel"; text = "행복한 순간에 함께 한 장소들"; ObjectID = "nSW-pd-P5r"; */
+"nSW-pd-P5r.text" = "행복한 순간에 함께 한 장소들";
+
+/* Class = "UILabel"; text = "08:15 PM"; ObjectID = "pMj-pG-Em1"; */
+"pMj-pG-Em1.text" = "08:15 PM";
+
+/* Class = "UILabel"; text = "2월\n행복했던 순간들"; ObjectID = "pX9-0F-dAj"; */
+"pX9-0F-dAj.text" = "2월\n행복했던 순간들";
+
+/* Class = "UIButton"; normalTitle = "내보내기"; ObjectID = "rKK-dh-ZxD"; */
+"rKK-dh-ZxD.normalTitle" = "내보내기";
+
+/* Class = "UIButton"; normalTitle = "내보내기"; ObjectID = "sE0-iH-8DX"; */
+"sE0-iH-8DX.normalTitle" = "내보내기";
+
+/* Class = "UILabel"; text = "Connect with iCloud"; ObjectID = "txf-xW-WnC"; */
+"txf-xW-WnC.text" = "Connect with iCloud";
+
+/* Class = "UILabel"; text = "수정하기"; ObjectID = "zAZ-N3-42p"; */
+"zAZ-N3-42p.text" = "수정하기";
+
+/* Class = "UILabel"; text = "#배수지 #고양이 입니다."; ObjectID = "zF1-Co-nsO"; */
+"zF1-Co-nsO.text" = "#배수지 #고양이 입니다.";
+
+/* Class = "UILabel"; text = "6월"; ObjectID = "zW2-Hy-Uwr"; */
+"zW2-Hy-Uwr.text" = "6월";
+
+/* Class = "UILabel"; text = "8월 중 가장 행복한 날은 17일 입니다."; ObjectID = "zZP-C6-qZm"; */
+"zZP-C6-qZm.text" = "8월 중 가장 행복한 날은 17일 입니다.";
+
+
+
+
