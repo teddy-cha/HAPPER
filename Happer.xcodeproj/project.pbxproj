@@ -59,6 +59,10 @@
 		4EB1BE871F4419A80079191D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EB1BE891F4419A80079191D /* Localizable.strings */; };
 		4EB1EC131F3EDFBE00B451FD /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB1EC121F3EDFBE00B451FD /* CalendarViewController.swift */; };
 		4EB1EC151F40944500B451FD /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB1EC141F40944500B451FD /* PhotoTableViewCell.swift */; };
+		4EBB95101FE253DD0054EC8C /* iPhoneSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB950F1FE253DD0054EC8C /* iPhoneSE.storyboard */; };
+		4EBC8FEA1FE121B2000C2CBC /* iPhoneX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBC8FE91FE121B2000C2CBC /* iPhoneX.storyboard */; };
+		4EBC8FED1FE12665000C2CBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBC8FEC1FE12665000C2CBC /* LoginViewController.swift */; };
+		4EBC8FF11FE12904000C2CBC /* HelpCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBC8FF01FE12904000C2CBC /* HelpCircleView.swift */; };
 		4EC5BFB71F4ADB8D00337BE5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5BFB61F4ADB8D00337BE5 /* BlurView.swift */; };
 		4EC5BFC61F4B04E700337BE5 /* CloudDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5BFC51F4B04E700337BE5 /* CloudDataManager.swift */; };
 		ACB2AE8D1F41AD4100918FCE /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AE8C1F41AD4100918FCE /* EditPhotoViewController.swift */; };
@@ -160,6 +164,10 @@
 		4EB1EC0E1F3ED5EB00B451FD /* Happer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happer-Bridging-Header.h"; sourceTree = "<group>"; };
 		4EB1EC121F3EDFBE00B451FD /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		4EB1EC141F40944500B451FD /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		4EBB950F1FE253DD0054EC8C /* iPhoneSE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneSE.storyboard; sourceTree = "<group>"; };
+		4EBC8FE91FE121B2000C2CBC /* iPhoneX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneX.storyboard; sourceTree = "<group>"; };
+		4EBC8FEC1FE12665000C2CBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4EBC8FF01FE12904000C2CBC /* HelpCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCircleView.swift; sourceTree = "<group>"; };
 		4EC5BFB61F4ADB8D00337BE5 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		4EC5BFB81F4AE1EE00337BE5 /* Happer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Happer.entitlements; sourceTree = "<group>"; };
 		4EC5BFC51F4B04E700337BE5 /* CloudDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDataManager.swift; sourceTree = "<group>"; };
@@ -226,16 +234,17 @@
 		4E925DA51EB8689E005EC836 /* Happer */ = {
 			isa = PBXGroup;
 			children = (
+				4EBC8FEF1FE128F6000C2CBC /* View */,
+				4EBC8FEB1FE12632000C2CBC /* Controller */,
+				4EBC8FE81FE1218F000C2CBC /* Storyboard */,
 				4EC5BFB81F4AE1EE00337BE5 /* Happer.entitlements */,
 				4EB1BE7E1F44188C0079191D /* Language */,
 				4E925DD61EB8691F005EC836 /* Font */,
 				4E925DA61EB8689E005EC836 /* AppDelegate.swift */,
 				4E925DA81EB8689E005EC836 /* ViewController.swift */,
-				4E925DAA1EB8689E005EC836 /* Main.storyboard */,
 				4E925DAD1EB8689E005EC836 /* Assets.xcassets */,
 				4E925DAF1EB8689E005EC836 /* LaunchScreen.storyboard */,
 				4E925DB21EB8689E005EC836 /* Info.plist */,
-				4EA0B1A21EDFD697001A93A4 /* SplashViewController.swift */,
 				4EA0B1A41EDFD75B001A93A4 /* BackUpViewController.swift */,
 				4EA0B1A61EDFD8BC001A93A4 /* MainViewController.swift */,
 				4EA0B1A81EDFE149001A93A4 /* DetailPlaceViewController.swift */,
@@ -318,6 +327,33 @@
 				4EB1BE891F4419A80079191D /* Localizable.strings */,
 			);
 			name = Language;
+			sourceTree = "<group>";
+		};
+		4EBC8FE81FE1218F000C2CBC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4E925DAA1EB8689E005EC836 /* Main.storyboard */,
+				4EBC8FE91FE121B2000C2CBC /* iPhoneX.storyboard */,
+				4EBB950F1FE253DD0054EC8C /* iPhoneSE.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		4EBC8FEB1FE12632000C2CBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0B1A21EDFD697001A93A4 /* SplashViewController.swift */,
+				4EBC8FEC1FE12665000C2CBC /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4EBC8FEF1FE128F6000C2CBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EBC8FF01FE12904000C2CBC /* HelpCircleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E94E5742FC2E4418F7E1A279 /* Pods */ = {
@@ -453,10 +489,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBB95101FE253DD0054EC8C /* iPhoneSE.storyboard in Resources */,
 				4E925DDC1EB86989005EC836 /* customBold.ttf in Resources */,
 				4EB1BE821F4418CD0079191D /* Base.lproj in Resources */,
 				4EB1BE871F4419A80079191D /* Localizable.strings in Resources */,
 				4E925DB11EB8689E005EC836 /* LaunchScreen.storyboard in Resources */,
+				4EBC8FEA1FE121B2000C2CBC /* iPhoneX.storyboard in Resources */,
 				4E925DAE1EB8689E005EC836 /* Assets.xcassets in Resources */,
 				4E925DDA1EB8697C005EC836 /* custom.ttf in Resources */,
 				4E925DAC1EB8689E005EC836 /* Main.storyboard in Resources */,
@@ -575,6 +613,7 @@
 				4E82D4A71F457D9900DC13F7 /* HapperCollectionViewController.swift in Sources */,
 				4E7764691F3490B9003ABF09 /* ImageSelectViewController.swift in Sources */,
 				4E6227F41F3C0B5D00763AAB /* FourTableViewCell.swift in Sources */,
+				4EBC8FF11FE12904000C2CBC /* HelpCircleView.swift in Sources */,
 				4E6227F01F3C0B4A00763AAB /* TwoTableViewCell.swift in Sources */,
 				4E3CD20F1F38BDC7000824BD /* DailyReportViewController.swift in Sources */,
 				4E48E9841EE153AA00121A75 /* RadiusSpringButton.swift in Sources */,
@@ -592,6 +631,7 @@
 				4E772AA21F34D606003BCA04 /* ImageScrollView.swift in Sources */,
 				4EA0B1AB1EDFE30B001A93A4 /* MindView.swift in Sources */,
 				4EB1EC131F3EDFBE00B451FD /* CalendarViewController.swift in Sources */,
+				4EBC8FED1FE12665000C2CBC /* LoginViewController.swift in Sources */,
 				4E5F01B41F3834290005369F /* DiaryTextViewController.swift in Sources */,
 				4E6686A21F3DDF780065F142 /* HapperReportViewController.swift in Sources */,
 				4E6227EE1F3C0B3C00763AAB /* OneTableViewCell.swift in Sources */,

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="ZIk-d3-37z">
+            <objects>
+                <viewController id="Vcd-AB-IoT" customClass="SplashViewController" customModule="Happer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j3F-Vb-7to"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ig-Az-0sf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NFJ-UX-JwE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="iGY-A3-pAs">
+                                <rect key="frame" x="98" y="283" width="178" height="246"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iGY-A3-pAs" firstAttribute="centerX" secondItem="NFJ-UX-JwE" secondAttribute="centerX" id="HVk-oQ-cOj"/>
+                            <constraint firstItem="iGY-A3-pAs" firstAttribute="centerY" secondItem="NFJ-UX-JwE" secondAttribute="centerY" id="rmg-8x-QNy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jeO-Xb-bH4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zck-1W-4hC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CwB-3k-4w3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1587" y="-43"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uNC-hY-JGd">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="PRn-Ke-ghW" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ESe-BM-HX4">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Vcd-AB-IoT" kind="relationship" relationship="rootViewController" id="qJg-hK-ZaJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M08-M6-E2l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2458" y="-44"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="Cco-Vl-LlM">
+            <objects>
+                <viewController id="Pqh-vj-IIc" customClass="LoginViewController" customModule="Happer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hp3-fa-e8A"/>
+                        <viewControllerLayoutGuide type="bottom" id="gzU-Pi-nIb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rr9-0L-ra1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdm-j1-52h">
+                                <rect key="frame" x="55" y="169" width="265" height="77.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">행복한 순간을
+기억하세요.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="28" name="NanumMyeongjo"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgD-tf-GfN">
+                                <rect key="frame" x="94.999999999999986" y="267" width="184.66666666666663" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="b8g-tu-17t"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content=" 해  피  한  마  음  이  헤  픈  사  람  들">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="NanumMyeongjo"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qVE-6w-wlS">
+                                <rect key="frame" x="66" y="322" width="242" height="2"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="N8V-iA-nbp"/>
+                                    <constraint firstAttribute="height" constant="2" id="pf6-9q-NA2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J8z-7i-2ed">
+                                <rect key="frame" x="144.33333333333334" y="713" width="86.333333333333343" height="2"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="TFJ-ob-eHr"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akj-Pj-R4R">
+                                <rect key="frame" x="153" y="681" width="69" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="다음에 하기">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qVE-6w-wlS" firstAttribute="centerX" secondItem="Rr9-0L-ra1" secondAttribute="centerX" id="7NU-qf-Z6Q"/>
+                            <constraint firstItem="J8z-7i-2ed" firstAttribute="width" secondItem="Akj-Pj-R4R" secondAttribute="width" multiplier="1.25" id="BUL-dp-SY4"/>
+                            <constraint firstItem="J8z-7i-2ed" firstAttribute="top" secondItem="Akj-Pj-R4R" secondAttribute="bottom" constant="2" id="Bzn-zd-rVH"/>
+                            <constraint firstItem="Akj-Pj-R4R" firstAttribute="centerX" secondItem="Vg4-eD-2jn" secondAttribute="centerX" id="FPw-5R-iPi"/>
+                            <constraint firstItem="mgD-tf-GfN" firstAttribute="centerX" secondItem="Rr9-0L-ra1" secondAttribute="centerX" id="Fki-cI-qtJ"/>
+                            <constraint firstItem="J8z-7i-2ed" firstAttribute="centerX" secondItem="Rr9-0L-ra1" secondAttribute="centerX" id="Mho-jc-ZCl"/>
+                            <constraint firstItem="gzU-Pi-nIb" firstAttribute="top" secondItem="J8z-7i-2ed" secondAttribute="bottom" constant="63" id="RF4-Wl-PnD"/>
+                            <constraint firstItem="pdm-j1-52h" firstAttribute="leading" secondItem="Rr9-0L-ra1" secondAttribute="leadingMargin" constant="39" id="bTz-0H-XRK"/>
+                            <constraint firstItem="mgD-tf-GfN" firstAttribute="top" secondItem="pdm-j1-52h" secondAttribute="bottom" constant="20" id="kc2-Lz-0YS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pdm-j1-52h" secondAttribute="trailing" constant="39" id="r1j-C0-PFz"/>
+                            <constraint firstItem="pdm-j1-52h" firstAttribute="top" secondItem="hp3-fa-e8A" secondAttribute="bottom" constant="125" id="umk-7e-Mbp"/>
+                            <constraint firstItem="qVE-6w-wlS" firstAttribute="top" secondItem="mgD-tf-GfN" secondAttribute="bottom" constant="34" id="vhn-hD-Rqs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vg4-eD-2jn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SH0-E9-u42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1588" y="-744.82758620689663"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="178" height="246"/>
+    </resources>
+</document>
